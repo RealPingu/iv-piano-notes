@@ -4,7 +4,7 @@
 \input{preamble.tex}
 
 % 2. Document Metadata
-\title{\Huge\textbf{Course / Topic Notes}\\[0.5em] \large Comprehensive Summary \& Concepts}
+\title{\Huge\textbf{Piano Theory \& Practice Notes}\\[0.5em] \large Scales, Chords, and Concepts}
 \author{\textbf{Inti Vidal}}
 \date{\today}
 
@@ -16,10 +16,24 @@
 \newpage
 
 % 4. Modular Chapters & Sections
-\chapter{My Piano Notes}
-\input{sections/01_introduction.tex}
+\chapter*{Overview}
+\stepcounter{chapter}
+\addcontentsline{toc}{chapter}{Overview}
+\input{sections/overview.tex}
 
-\chapter{Applied Topics \& Examples}
-\input{sections/02_topic_sample.tex}
+\chapter*{Scales \& Fingering}
+\stepcounter{chapter}
+\addcontentsline{toc}{chapter}{Scales \& Fingering}
+\input{sections/scales.tex}
+
+\chapter*{Chords \& Inversions}
+\stepcounter{chapter}
+\addcontentsline{toc}{chapter}{Chords \& Inversions}
+\input{sections/chords.tex}
+
+\chapter*{Seventh Chords \& Advanced Harmony}
+\stepcounter{chapter}
+\addcontentsline{toc}{chapter}{Seventh Chords \& Advanced Harmony}
+\input{sections/seventh_chords.tex}
 
 \end{document}

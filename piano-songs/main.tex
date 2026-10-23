@@ -1,0 +1,31 @@
+\documentclass[11pt, a4paper]{report}
+
+% 1. Load shared preamble configuration
+\input{preamble.tex}
+
+% 2. Document Metadata
+\title{\Huge\textbf{List of Songs and Their Notes}\\[0.5em]}
+\author{\textbf{Inti Vidal}}
+\date{\today}
+
+% 3. Document Body
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% 4. Modular Chapters & Sections
+\chapter*{The Weeknd - Out of Time}
+\stepcounter{chapter}
+\input{sections/out_of_time.tex}
+
+\chapter*{Rude Buster - Toby Fox}
+\stepcounter{chapter}
+\input{sections/rude_buster.tex}
+
+\chapter*{Don't Forget - Toby Fox}
+\stepcounter{chapter}
+\input{sections/dont_forget.tex}
+
+\end{document}

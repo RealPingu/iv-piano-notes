@@ -1,0 +1,23 @@
+# LaTeX build & output artifacts
+**/build/
+**/pdfs/
+**/pdf/
+*.pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editor swap & backup files
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

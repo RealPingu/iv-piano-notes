@@ -20,17 +20,31 @@ Find the root one octave higher, then step downward:
 \begin{itemize}
     \item \textbf{Major 7th (Maj7):} Major Triad $+$ Major 7th ($1 - 3 - 5 - 7$).
     \begin{itemize}
+        \item Half-step pattern: $4 + 3 + 4$
         \item Example: $\text{A}\flat\text{maj7} = A\flat - C - E\flat - G$
     \end{itemize}
     \item \textbf{Dominant 7th (7):} Major Triad $+$ Minor 7th ($1 - 3 - 5 - \flat 7$).
     \begin{itemize}
-        \item Naturally occurs on the 5th (Dominant) degree of the major scale.
-        \item Has active tension that pulls toward the tonic (home).
+        \item Half-step pattern: $4 + 3 + 3$
         \item Example: $\text{C7} = C - E - G - B\flat$, $\text{G7} = G - B - D - F$
     \end{itemize}
     \item \textbf{Minor 7th (m7):} Minor Triad $+$ Minor 7th ($1 - \flat 3 - 5 - \flat 7$).
     \begin{itemize}
+        \item Half-step pattern: $3 + 4 + 3$
         \item Example: $\text{Gm7} = G - B\flat - D - F$, $\text{Fm7} = F - A\flat - C - E\flat$
+    \end{itemize}
+\end{itemize}
+
+\subsection{The Dominant 7th Logic (Tritone Engine)}
+
+\begin{itemize}
+    \item Built on scale degree 5 (the Dominant degree), e.g., $G - B - D - F$ in C Major.
+    \item \textbf{Tritone Tension:} The interval between the 3rd ($B$) and 7th ($F$) is 6 half-steps (Tritone).
+    \item \textbf{Resolution:}
+    \begin{itemize}
+        \item $B$ pulls upward 1 half-step to $C$ (Tonic root).
+        \item $F$ pulls downward 1 half-step to $E$ (Tonic third).
+        \item Example: $G7 \longrightarrow C$ Major ($G-B-D-F \rightarrow C-E-G$).
     \end{itemize}
 \end{itemize}
 
@@ -39,10 +53,33 @@ Find the root one octave higher, then step downward:
 \begin{definitionbox}{Half-Diminished Formula}
 \textbf{Recipe:} Take a Minor 7th chord ($\text{m7}$) and \textbf{lower the 5th by 1 half-step} ($\flat 5$):
 \begin{equation*}
-    1 - \flat 3 - \flat 5 - \flat 7
+    1 - \flat 3 - \flat 5 - \flat 7 \quad (\text{Half-steps: } 3 + 3 + 4)
 \end{equation*}
 \begin{itemize}
-    \item \textbf{Why "Half":} The lower triad is diminished ($1 - \flat 3 - \flat 5$), but the 7th is a normal minor 7th ($\flat 7$).
-    \item \textbf{Example (from Don't Forget):} F half-diminished $= F - G\sharp - B - D\sharp$
+    \item \textbf{Why "Half":} The lower triad ($1 - \flat 3 - \flat 5$) is diminished, but the 7th is a normal minor 7th ($\flat 7$).
+    \item \textbf{Example (Don't Forget):} F half-diminished $= F - G\sharp - B - D\sharp$
 \end{itemize}
 \end{definitionbox}
+
+\subsection{Notation Formats}
+
+\begin{itemize}
+    \item \textbf{m7}$\flat$\textbf{5:} Standard lead sheet notation (recipe: Minor 7 with flat 5). Example: $\text{Fm7}\flat 5$.
+    \item $\varnothing$ \textbf{or} $\varnothing\mathbf{7:}$ Jazz and classical symbol (slashed circle indicates half-diminished). Example: $F^\varnothing$.
+    \item \textbf{-7(}$\flat$\textbf{5):} Jazz notation where minus sign ($-$) means minor. Example: $F-7(\flat 5)$.
+\end{itemize}
+
+\subsection{Comparison: Fully Diminished vs. Half-Diminished}
+
+\begin{itemize}
+    \item \textbf{Fully Diminished 7th ($\circ$ / dim7):} Three stacked minor 3rds ($3 + 3 + 3$).
+    \begin{itemize}
+        \item Degrees: $1 - \flat 3 - \flat 5 - \flat\flat 7$
+        \item Example on F: $F \xrightarrow{+3} G\sharp \xrightarrow{+3} B \xrightarrow{+3} D = F - G\sharp - B - D$
+    \end{itemize}
+    \item \textbf{Half-Diminished 7th ($\varnothing$ / m7$\flat$5):} Diminished triad with a regular minor 7th on top ($3 + 3 + 4$).
+    \begin{itemize}
+        \item Degrees: $1 - \flat 3 - \flat 5 - \flat 7$
+        \item Example on F: $F \xrightarrow{+3} G\sharp \xrightarrow{+3} B \xrightarrow{+4} D\sharp = F - G\sharp - B - D\sharp$
+    \end{itemize}
+\end{itemize}
